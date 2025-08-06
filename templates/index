@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Newsletter Home</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Newsletter Site</h1>
+  <nav>
+    <a href="/login">Login</a> |
+    <a href="/register">Register</a> |
+    <a href="/admin">Admin</a>
+  </nav>
+  <h2>Categories</h2>
+  <ul>
+    <li>Tech</li>
+    <li>Health</li>
+    <li>Science</li>
+  </ul>
+  <form method="POST" action="/subscribe">
+    <input type="email" name="email" placeholder="Subscribe to newsletter">
+    <button type="submit">Subscribe</button>
+  </form>
+</body>
+</html>
